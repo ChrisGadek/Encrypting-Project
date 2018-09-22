@@ -50,7 +50,7 @@ public class EncryptScreen5Controller {
             if (mat.find()) {
                 path1 = path1.replace("%20", " ");
             }
-            String lolek = path1.substring(0, path1.length() - 16);
+            String lolek = path1.substring(0, path1.length() - 15);
             lolek += "/Encrypted";
             File theDir = new File(lolek);
             // if the directory does not exist, create it
