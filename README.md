@@ -7,6 +7,7 @@ application, which can ecnrypt and decrypt informations
 * [Opening](#opening)
 * [Using](#using) 
 * [Exmples of using](#examples-of-using)
+* [Author](#author)
 
 ## General info
 This is an encrypting/decrypting project, that can encrypt and decrypt any files with the RSA algorithm - the best and
@@ -26,3 +27,6 @@ Using of this project is very simple. The GUI tells you what to do to encrypt/de
 
 ## Examples of using
 If you want to sent to somebody some critical information (like passwords) or critical images, you can encrypt them with this application before sending. The longer instruction is included in "Help" section in the GUI.
+
+## Author
+The whole project is created by myself. I needed 3 months to create it.
