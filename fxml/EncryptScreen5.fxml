@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EncryptScreen5Controller">
+   <children>
+      <TextField fx:id="textLabel" layoutX="33.0" layoutY="124.0" mouseTransparent="true" onKeyReleased="#getTextByEnter" prefHeight="25.0" prefWidth="549.0" />
+      <Label fx:id="label" layoutX="154.0" layoutY="54.0" prefHeight="44.0" prefWidth="307.0" text="Enter the name of enrypted file">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="nextButton" layoutX="315.0" layoutY="328.0" mnemonicParsing="false" onAction="#getText" text="Next" />
+      <Label fx:id="wrongLabel" layoutX="193.0" layoutY="178.0" prefHeight="44.0" prefWidth="213.0" text="File already exist. Try again." visible="false">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="wrongButton" layoutX="284.0" layoutY="273.0" mnemonicParsing="false" onAction="#repeat" onInputMethodTextChanged="#repeatByEnter" onKeyPressed="#repeatByEnter" onKeyReleased="#repeatByEnter" onKeyTyped="#repeatByEnter" text="Ok" visible="false" />
+      <Button fx:id="backButton" layoutX="240.0" layoutY="328.0" mnemonicParsing="false" onAction="#back" text="back" />
+   </children>
+</Pane>

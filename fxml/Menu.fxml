@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import java.lang.String?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuController">
+   <children>
+      <Button layoutX="65.0" layoutY="302.0" mnemonicParsing="false" onAction="#encrypt" text="Encrypt" />
+      <Button layoutX="185.0" layoutY="302.0" mnemonicParsing="false" onAction="#decrypt" text="Decrypt" />
+      <Button layoutX="292.0" layoutY="302.0" mnemonicParsing="false" onAction="#generateAKey" text="Generate a Key" />
+      <Label fx:id="label" layoutX="34.0" layoutY="60.0" prefHeight="64.0" prefWidth="533.0" text="Welcome to Encrypting/Decrypting Application" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="469.0" layoutY="302.0" mnemonicParsing="false" onAction="#help" text="Help" />
+      <ChoiceBox fx:id="encryptChoose" layoutX="57.0" layoutY="333.0" prefHeight="25.0" prefWidth="72.0" >
+         <items>
+            <FXCollections fx:factory="observableArrayList">
+               <String fx:value = "Text"/>
+               <String fx:value="Image"/>
+               <String fx:value="Other file"/>
+            </FXCollections>
+         </items>
+         <value>
+            <String fx:value="Text"/>
+         </value>
+      </ChoiceBox>
+      <ChoiceBox fx:id="decryptChoose" layoutX="178.0" layoutY="333.0" prefHeight="25.0" prefWidth="72.0" >
+         <items>
+            <FXCollections fx:factory="observableArrayList">
+               <String fx:value = "Text"/>
+               <String fx:value="Image"/>
+               <String fx:value="Other file"/>
+            </FXCollections>
+         </items>
+         <value>
+            <String fx:value="Text"/>
+         </value>
+      </ChoiceBox>
+   </children>
+</Pane>

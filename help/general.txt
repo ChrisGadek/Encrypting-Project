@@ -1,0 +1,12 @@
+To safely sent an important information from some computer A to computer B, you need to:
+1. Have this program on both computers.
+2. Generate a key on computer B (the best option is to chose 2048 as the key's length).
+3. Sent a number n and e from computer B to A. These numbers are called "The public key",
+you can safely share them with anyone.
+4. Encrypt the information on computer A using numbers n and e from computer B.
+5. Sent encrypted information to computer B.
+6. Decrypt information on computer B using numbers n and d.
+
+Important: never share the number d. On this number is based the security of the encryption.
+It's impossible to decrypt an encrypted information without this number,
+it would take billions of years. That's why this algorithm is safe.
