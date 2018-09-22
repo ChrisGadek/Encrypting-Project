@@ -53,7 +53,7 @@ public class GenerateAKeyScreen3Controller {
                 String Key2 = "d=" + listOfKeys.get(2);
                 File thisFile = new File(Main.class.getProtectionDomain().getCodeSource().getLocation().getPath());
                 String thisFile1 = thisFile.getAbsolutePath();
-                String lolek = thisFile1.substring(0, thisFile1.length() - 16);
+                String lolek = thisFile1.substring(0, thisFile1.length() - 15);
                 lolek += "/keys";
                 //converts the file's path in to the right format.
                 Pattern pat = Pattern.compile("%20");
