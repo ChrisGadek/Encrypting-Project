@@ -50,7 +50,7 @@ public class GenerateAKeyScreen1Controller {
             if (mat.find()) {
                 path1 = path1.replace("%20", " ");
             }
-            String lolek = path1.substring(0, path1.length() - 16);
+            String lolek = path1.substring(0, path1.length() - 15);
             lolek += "/keys";
             System.out.println(lolek);
             File theDir = new File(lolek);
