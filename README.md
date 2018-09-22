@@ -8,6 +8,7 @@ application, which can ecnrypt and decrypt informations
 * [Using](#using) 
 * [Exmples of using](#examples-of-using)
 * [Author](#author)
+* [System](#system)
 
 ## General info
 This is an encrypting/decrypting project, that can encrypt and decrypt any files with the RSA algorithm - the best and
@@ -30,3 +31,6 @@ If you want to sent to somebody some critical information (like passwords) or cr
 
 ## Author
 The whole project is created by myself. I needed 3 months to create it.
+
+## System
+This spplication is avalible for every Windows OS
