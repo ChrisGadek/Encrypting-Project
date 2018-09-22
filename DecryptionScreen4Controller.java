@@ -54,7 +54,7 @@ public class DecryptionScreen4Controller {
             System.out.println(path1);
             //gets the path of directory, where the application already is.
             //Creates the new directory, where the decrypted files will be stored.
-            String lolek = path1.substring(0, path1.length() - 16);
+            String lolek = path1.substring(0, path1.length() - 15);
             lolek += "/Decrypted";
             System.out.println(lolek);
             File theDir = new File(lolek);
