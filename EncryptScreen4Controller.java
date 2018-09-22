@@ -100,7 +100,7 @@ public class EncryptScreen4Controller {
                 if (mat.find()) {
                     thisFile1 = thisFile1.replace("%20", " ");
                 }
-                String lolek = thisFile1.substring(0, thisFile1.length() - 16);
+                String lolek = thisFile1.substring(0, thisFile1.length() - 15);
                 lolek = lolek + "/Encrypted";
                 if (MenuController.isChoseText()) {
                     //the process of encrypting implemented for the text data.
