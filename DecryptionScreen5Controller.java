@@ -92,7 +92,7 @@ public class DecryptionScreen5Controller {
                 if (mat.find()) {
                     thisFile1 = thisFile1.replace("%20", " ");
                 }
-                String lolek = thisFile1.substring(0, thisFile1.length() - 16);
+                String lolek = thisFile1.substring(0, thisFile1.length() - 15);
                 //gets the path to the directory, where decrypted files are stored.
                 lolek += "/Decrypted";
                 if (MenuController.isChoseText()) {
